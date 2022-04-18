@@ -1,24 +1,15 @@
-# Frontend Mentor - Interactive rating component
+# Practice - Form Sign Up
 
-![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.png)
 
 ## Hello! 👋 GitHub community
 
-Thanks for checking out this front-end coding challenge repository. This is a Frontend Mentor challenge to help me improve my coding skills by building projects.
-
-see the project on the official web: [Frontend Mentor](https://www.frontendmentor.io) 
+Thanks for checking out this practice. This time I try to practice with the 'placeholder selectors' of SASS.
 
 ## The challenge
 
-My challenge was to develop this interactive rating component.
+I want to create a form component, the inputs have  to use a placeholder selector.
 
-The final users should be able to:
-
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Select and submit a rating number 
-- See the "Thank you" card state after submitting a rating
-
-To do it, I used HTML5, SASS, and VanillaJs.
+To do it, I used HTML5 and SASS
 
 If someone wants to give me some advice, they are welcome
