@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>SASS Practice | Sign Up</title>
+    
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/fc44caefb1.js" crossorigin="anonymous"></script>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- PERSONAL STYLES -->
+    <link rel="stylesheet" href="./assets/dist/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <form class="form" action="#" method="get">
+            <h2 class="form_title">Sign Up</h2>
+
+            <div class="form_body">
+                <!-- INPUT EMAIL -->
+                <div class="input">
+                    <figure class="input_figure">
+                        <label for="email" class="fa-solid fa-envelope"></label>
+                    </figure>
+                    <input type="email" name="email" id="email" placeholder="email" autocomplete="off">
+                </div>
+
+                <!-- INPUT NAME -->
+                <div class="input">
+                    <figure class="input_figure">
+                        <label for="name" class="fa-solid fa-user"></label>
+                    </figure>
+                    <input type="text" name="name" id="name"  placeholder="name" autocomplete="off">
+                </div>
+
+                <!-- INPUT PASSWORD -->
+                <div class="input">
+                    <figure class="input_figure">
+                        <label for="password" class="fa-solid fa-lock"></label>
+                    </figure>
+                    <input type="password" name="password" id="password" placeholder="password" autocomplete="off">
+                </div>
+
+                <!-- INPUT TERMS & CONDITIONS -->
+                <div class="input_checkbox">
+                    <input type="checkbox" name="terms" id="terms">
+                    <label for="terms">I read the <a href="#">Terms and conditions</a> and I agree with them</label>
+                </div>
+            </div>
+
+            <div class="form_footer">
+                <input type="submit" value="Sign Up">
+            </div>
+            
+            <div class="form_already">
+                <span>Already have a account? <a class="already" href="#">Log In</a></span>
+                
+            </div>
+
+        </form>
+
+        <div class="attribution">
+            Coded by <a href="https://github.com/Cristian-Sosa">Cristian Sosa</a>.
+          </div>
+    </div>
+
+    <!-- PERSONAL SCRIPTS -->
+    <script src=""></script>
+</body>
+</html>
